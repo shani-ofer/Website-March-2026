@@ -39,7 +39,7 @@ export function Homepage() {
           <div className="flex flex-col md:flex-row gap-10 items-start">
             <div className="space-y-5 text-[#555] body-text leading-relaxed max-w-3xl flex-1">
               <p>
-                שמי עופר שני. במשך למעלה מ-25 שנה, בניתי והובלתי חברות טכנולוגיה, החל מהקמת סטארט-אפ והצמחתו דרך מספר שלבים, ועד לניהול צוותים גלובליים בתחומי פיתוח (R&D), מוצר, תפעול, תמיכה ועוד.
+                שמי עפר שני. במשך למעלה מ-25 שנה, בניתי והובלתי חברות טכנולוגיה, החל מהקמת סטארט-אפ והצמחתו דרך מספר שלבים, ועד לניהול צוותים גלובליים בתחומי פיתוח (R&D), מוצר, תפעול, תמיכה ועוד.
               </p>
               <p>
                 לאורך הדרך, עבדתי במגוון רחב של תעשיות, כולל טלקום, טכנולוגיה רפואית, גיימינג אונליין, חממות טכנולוגיות ומרטק (Martech). כל אחת מהן לימדה אותי משהו שונה על מה שגורם לצוותים להצליח ומה שמעכב אותם.
@@ -54,7 +54,7 @@ export function Homepage() {
             <div className="w-[70%] md:w-[23%] mx-auto md:mx-0 shrink-0">
               <img 
                 src="/profile2.png" 
-                alt="עופר שני" 
+                alt="עפר שני" 
                 className="w-full h-auto rounded-2xl shadow-md object-cover aspect-square md:aspect-auto"
                 referrerPolicy="no-referrer"
               />

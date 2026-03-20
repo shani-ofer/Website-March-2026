@@ -9,7 +9,7 @@ export function IndividualsPage() {
         <Badge>שיחת היכרות ללא עלות</Badge>
         <h1 className="text-deep-navy mb-4">הדרך קדימה מתחילה בשיחה</h1>
         <p className="text-[18px] md:text-[22px] font-medium text-[#555] max-w-3xl mx-auto mb-10 leading-relaxed">
-          קואצ'ינג קריירה עם עופר שני. הכוונה אישית ומעשית לכל שלב בקריירה שלך.
+          קואצ'ינג קריירה עם עפר שני. הכוונה אישית ומעשית לכל שלב בקריירה שלך.
         </p>
         <Button variant="whatsapp" href="https://wa.me/972545422634" className="flex items-center gap-2 mx-auto">
           <span>קבע/י שיחת היכרות ללא עלות</span>
@@ -73,7 +73,7 @@ export function IndividualsPage() {
             <div className="flex-1">
               <div className="space-y-5 text-[#555] body-text leading-relaxed max-w-3xl mb-10">
                 <p>
-                  אני עופר שני. ביליתי מעל 25 שנה בהובלת טכנולוגיה, כולל הקמה והובלה של חברת טכנולוגיה דרך מספר שלבי צמיחה. עבדתי בתחומי טלקום, טכנולוגיה רפואית, גיימינג, חממות טכנולוגיות ומרטק, וניהלתי צוותים בפיתוח, מוצר, תפעול ותמיכה.
+                  אני עפר שני. ביליתי מעל 25 שנה בהובלת טכנולוגיה, כולל הקמה והובלה של חברת טכנולוגיה דרך מספר שלבי צמיחה. עבדתי בתחומי טלקום, טכנולוגיה רפואית, גיימינג, חממות טכנולוגיות ומרטק, וניהלתי צוותים בפיתוח, מוצר, תפעול ותמיכה.
                 </p>
                 <p>
                   היום אני מאמן אנשים דרך אתגרי קריירה. הגישה שלי פשוטה: שאלות אמיתיות, שיחה כנה והכוונה מעשית הבנויה על ניסיון, לא על ספרי לימוד.
@@ -93,7 +93,7 @@ export function IndividualsPage() {
             <div className="w-[70%] md:w-[23%] mx-auto md:mx-0 shrink-0">
               <img 
                 src="/profile2.png" 
-                alt="עופר שני" 
+                alt="עפר שני" 
                 className="w-full h-auto rounded-2xl shadow-md object-cover aspect-square md:aspect-auto"
                 referrerPolicy="no-referrer"
               />
