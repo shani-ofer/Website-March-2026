@@ -1,13 +1,14 @@
 name: Deploy to GitHub Pages
 on:
   push:
-    branches: [ "main" ] # or "master" if that is your branch name
+    branches: [ "main" ] # change to "master" if needed
   workflow_dispatch:
 
+# THIS BLOCK REPLACES THE SETTINGS TOGGLE
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write    # Allows the script to read your code
+  pages: write       # Allows the script to publish to GitHub Pages
+  id-token: write    # Required for secure deployment
 
 jobs:
   build-and-deploy:
@@ -34,7 +35,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './dist' # Vite builds into the 'dist' folder
+          path: './dist' 
 
       - name: Deploy to GitHub Pages
         id: deployment
