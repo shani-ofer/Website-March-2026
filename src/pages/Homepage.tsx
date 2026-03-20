@@ -124,8 +124,8 @@ export function Homepage() {
         <div className="absolute inset-0 z-0 bg-white/40" />
         
         <div className="relative z-10 max-w-[1000px] mx-auto">
-          <h2 className="text-deep-navy mb-3">לאמן מנהלים להוביל, לא רק לנהל</h2>
-          <p className="text-[18px] md:text-[22px] font-medium text-[#555] mb-12">
+          <h2 className="text-deep-navy mb-3 drop-shadow-lg">לאמן מנהלים להוביל, לא רק לנהל</h2>
+          <p className="text-[18px] md:text-[22px] font-medium text-[#555] mb-12 drop-shadow-md">
             ארגונים חזקים נבנים על מנהלים חזקים. אני עוזר לשלכם להגיע לשם.
           </p>
           
