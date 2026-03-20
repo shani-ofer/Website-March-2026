@@ -51,7 +51,7 @@ export function ContactSection({ variant = "dark" }: ContactSectionProps) {
             <span className="font-medium">shani.ofer@gmail.com</span>
           </a>
           
-          <a href="https://linkedin.com/in/ofershani" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
+          <a href="https://www.linkedin.com/in/ofer-shani/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
             <Linkedin size={18} />
             <span className="font-medium">LinkedIn</span>
           </a>
