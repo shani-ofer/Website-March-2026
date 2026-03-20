@@ -117,11 +117,11 @@ export function Homepage() {
       {/* Section 5: For Companies */}
       <section className="relative py-12 md:py-20 px-6">
         {/* Background Image & Overlay */}
-        <div 
+        <div
           className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: "url('/Gemini_Generated_Image_5u1s355u1s355u1s.jpg')" }}
+          style={{ backgroundImage: "url('/background5_(1).jpg')" }}
         />
-        <div className="absolute inset-0 z-0 bg-white/90" />
+        <div className="absolute inset-0 z-0 bg-white/40" />
         
         <div className="relative z-10 max-w-[1000px] mx-auto">
           <h2 className="text-deep-navy mb-3">לאמן מנהלים להוביל, לא רק לנהל</h2>
