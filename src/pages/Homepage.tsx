@@ -153,8 +153,6 @@ export function Homepage() {
               <DomainTag>תפעול (Operations)</DomainTag>
               <DomainTag>תשתיות (Infrastructure)</DomainTag>
               <DomainTag>תמיכה ושירות (Support & Service)</DomainTag>
-              <DomainTag>משאבי אנוש (HR)</DomainTag>
-              <DomainTag>כספים (Finance)</DomainTag>
             </div>
             <p className="body-text text-[#555]">
               מראשי צוותים (Team Leads) דרך דרגי ביניים ועד לסמנכ"לים (VPs), אני עובד עם כל שכבות הניהול.
