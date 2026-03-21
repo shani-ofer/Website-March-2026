@@ -66,8 +66,6 @@ export function CompaniesPage() {
             <DomainTag>תפעול (Operations)</DomainTag>
             <DomainTag>תשתיות (Infrastructure)</DomainTag>
             <DomainTag>תמיכה ושירות (Support & Service)</DomainTag>
-            <DomainTag>משאבי אנוש (HR)</DomainTag>
-            <DomainTag>כספים (Finance)</DomainTag>
           </div>
         </div>
       </section>
