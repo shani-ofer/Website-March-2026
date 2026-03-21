@@ -124,8 +124,8 @@ export function Homepage() {
         <div className="absolute inset-0 z-0 bg-white/40" />
         
         <div className="relative z-10 max-w-[1000px] mx-auto">
-          <h2 className="text-deep-navy mb-3 drop-shadow-lg">לאמן מנהלים להוביל, לא רק לנהל</h2>
-          <p className="text-[18px] md:text-[22px] font-medium text-[#555] mb-12 drop-shadow-md">
+          <h2 className="text-white mb-3 drop-shadow-lg">לאמן מנהלים להוביל, לא רק לנהל</h2>
+          <p className="text-[18px] md:text-[22px] font-medium text-white mb-12 drop-shadow-md">
             ארגונים חזקים נבנים על מנהלים חזקים. אני עוזר לשלכם להגיע לשם.
           </p>
           
@@ -154,13 +154,13 @@ export function Homepage() {
               <DomainTag>תשתיות (Infrastructure)</DomainTag>
               <DomainTag>תמיכה ושירות (Support & Service)</DomainTag>
             </div>
-            <p className="body-text text-[#555]">
+            <p className="body-text text-white">
               מראשי צוותים (Team Leads) דרך דרגי ביניים ועד לסמנכ"לים (VPs), אני עובד עם כל שכבות הניהול.
             </p>
           </div>
 
           <div className="text-center">
-            <p className="text-[19px] font-medium text-deep-navy mb-8">
+            <p className="text-[19px] font-medium text-white mb-8">
               מעל 25 שנות ניסיון בבניית צוותים וחברות טכנולוגיה, עכשיו לשירותכם.
             </p>
             <Button variant="primary-navy" href="/management">
