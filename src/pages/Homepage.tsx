@@ -160,7 +160,7 @@ export function Homepage() {
           </div>
 
           <div className="text-center">
-            <p className="text-[19px] font-medium text-black mb-8">
+            <p className="text-[19px] font-bold text-black mb-8">
               מעל 25 שנות ניסיון בבניית צוותים וחברות טכנולוגיה, עכשיו לשירותכם.
             </p>
             <Button variant="primary-navy" href="/management">
