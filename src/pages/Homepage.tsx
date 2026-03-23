@@ -68,7 +68,7 @@ export function Homepage() {
       {/* Section 3: For Individuals */}
       <section className="py-12 md:py-20 px-6 bg-white">
         <div className="max-w-[1000px] mx-auto">
-          <h2 className="text-deep-navy mb-3">קואצ'ינג קריירה שפוגש אותך איפה שאת/ה</h2>
+          <h2 className="text-deep-navy mb-3">קואצ'ינג לצמתים בעולם העבודה ובניהול הקריירה</h2>
           <p className="text-[18px] md:text-[22px] font-medium text-[#555] mb-12">
             כל שלב בקריירה מביא איתו אתגרים שונים. אני כאן בשביל כולם.
           </p>
