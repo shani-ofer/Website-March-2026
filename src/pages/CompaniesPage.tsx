@@ -80,8 +80,7 @@ export function CompaniesPage() {
             </p>
             <p className="small-text text-medium-gray">
               תואר שני (MA) במנהל עסקים ותואר ראשון (BSc) במדעי המחשב ומנהל עסקים, האוניברסיטה העברית בירושלים.
-            </p>
-            <p className="small-text text-medium-gray">
+              <br/>
               שרות צבאי: מ"פ בתותחנים
             </p>
             <p>
