@@ -49,6 +49,8 @@ export function Homepage() {
               </p>
               <p className="small-text text-medium-gray mt-6">
                 תואר שני (MA) במנהל עסקים ותואר ראשון (BSc) במדעי המחשב ומנהל עסקים, האוניברסיטה העברית בירושלים.
+                <br/>
+                שרות צבאי: מ"פ בתותחנים
               </p>
             </div>
             <div className="w-[70%] md:w-[23%] mx-auto md:mx-0 shrink-0">
