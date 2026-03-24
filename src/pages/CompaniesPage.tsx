@@ -39,7 +39,7 @@ export function CompaniesPage() {
       {/* Section 3: How I Work */}
       <section className="py-12 md:py-20 px-6 bg-white">
         <div className="max-w-[1000px] mx-auto">
-          <h2 className="text-deep-navy mb-8">קואצ'ינג ויעוץ מעשי לכל שכת ניהולץ</h2>
+          <h2 className="text-deep-navy mb-8">קואצ'ינג ויעוץ מעשי לכל שכבת ניהול</h2>
           <p className="text-[#555] body-text leading-relaxed max-w-3xl mb-12">
             אני עובד עם מנהלים באחד-על-אחד, ומתמקד באתגרים האמיתיים שהם מתמודדים איתם ביומיום. בלי מודלים גנריים. כל התקשרות מתחילה בהבנת הארגון שלכם, האנשים שלכם, והפערים הספציפיים שאתם רוצים לסגור.
           </p>
