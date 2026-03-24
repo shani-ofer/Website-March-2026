@@ -21,7 +21,7 @@ export function CompaniesPage() {
       {/* Section 2: The Challenge */}
       <section className="py-12 md:py-20 px-6 bg-warm-white">
         <div className="max-w-[1000px] mx-auto">
-          <h2 className="text-deep-navy mb-8">הפער בין עובד מצוין למנהל מצוין</h2>
+          <h2 className="text-deep-navy mb-8">הפער בין מנהל בינוני למנהל מצויין</h2>
           <div className="space-y-5 text-[#555] body-text leading-relaxed max-w-3xl">
             <p>
               רוב החברות מקדמות את העובדים המקצועיים החזקים ביותר שלהן (ICs) לתפקידי ניהול. זה הגיוני. אבל ניהול הוא סט כישורים שונה לחלוטין: הובלת אנשים, ניווט קונפליקטים, קבלת החלטות עם מידע חלקי, בניית תרבות צוותית.
@@ -39,9 +39,9 @@ export function CompaniesPage() {
       {/* Section 3: How I Work */}
       <section className="py-12 md:py-20 px-6 bg-white">
         <div className="max-w-[1000px] mx-auto">
-          <h2 className="text-deep-navy mb-8">קואצ'ינג מעשי לכל שכבת ניהול</h2>
+          <h2 className="text-deep-navy mb-8">קואצ'ינג ויעוץ מעשי לכל שכת ניהולץ</h2>
           <p className="text-[#555] body-text leading-relaxed max-w-3xl mb-12">
-            אני עובד עם מנהלים באחד-על-אחד ובקבוצות, ומתמקד באתגרים האמיתיים שהם מתמודדים איתם ביומיום. בלי מודלים גנריים. כל התקשרות מתחילה בהבנת הארגון שלכם, האנשים שלכם, והפערים הספציפיים שאתם רוצים לסגור.
+            אני עובד עם מנהלים באחד-על-אחד, ומתמקד באתגרים האמיתיים שהם מתמודדים איתם ביומיום. בלי מודלים גנריים. כל התקשרות מתחילה בהבנת הארגון שלכם, האנשים שלכם, והפערים הספציפיים שאתם רוצים לסגור.
           </p>
           
           <h3 className="text-deep-navy text-[22px] font-bold mb-6">עם מי אני עובד</h3>
