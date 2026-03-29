@@ -1,7 +1,30 @@
+import { useState } from 'react';
 import { Badge, Card } from "@/src/components/UI";
 import { Button } from "@/src/components/Button";
+import { Modal } from "@/src/components/Modal";
 
 export function IndividualsPage() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const beginningCareerContent = [
+    {
+      title: "המטרה:",
+      text: "לדייק את השאיפות שלך ולסייע לך לקבל החלטות מושכלות לגבי הצעדים הראשונים והנכונים ביותר עבורך."
+    },
+    {
+      title: "מיועד:",
+      text: "לאנשים הנמצאים בראשית דרכם המקצועית, מתלבטים לאחר לימודים, צבא, או כל מי שניצב בפני בחירת מסלול ורוצה לבנות יסודות חזקים."
+    },
+    {
+      title: "מבנה:",
+      text: "התהליך מורכב מ-10 פגישות שבועיות אישיות, המאפשרות עבודה ממוקדת, מעמיקה וליווי צמוד שלב אחר שלב."
+    },
+    {
+      title: "התוצאה:",
+      text: "קבלת החלטה ברורה ומגובשת על הכיוון המקצועי שלך, יחד עם תוכנית פעולה מעשית וביטחון בדרך שבחרת."
+    }
+  ];
+
   return (
     <div className="flex flex-col">
       {/* Section 1: Hero */}
@@ -45,10 +68,15 @@ export function IndividualsPage() {
           <h2 className="text-deep-navy mb-10">אני עובד עם אנשים בכל שלב בקריירה</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-            <Card 
-              title="בתחילת הדרך" 
-              text="את/ה בונה את היסודות. הבחירות שאת/ה עושה עכשיו מעצבות את כל מה שיבוא אחר כך. בואו נחשוב עליהן ביחד." 
-            />
+            <div
+              onClick={() => setIsModalOpen(true)}
+              className="cursor-pointer hover:shadow-lg transition-shadow"
+            >
+              <Card
+                title="בתחילת הדרך"
+                text="את/ה בונה את היסודות. הבחירות שאת/ה עושה עכשיו מעצבות את כל מה שיבוא אחר כך. בואו נחשוב עליהן ביחד."
+              />
+            </div>
             <Card 
               title="באמצע הקריירה" 
               text="יש לך ניסיון וכישורים. השאלה עכשיו היא איך להשתמש בהם בדרך שמרגישה נכונה לפרק הבא." 
@@ -101,6 +129,13 @@ export function IndividualsPage() {
           </div>
         </div>
       </section>
+
+      <Modal
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+        title="בתחילת הדרך"
+        content={beginningCareerContent}
+      />
     </div>
   );
 }
