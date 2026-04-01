@@ -30,7 +30,7 @@ export function Modal({ isOpen, onClose, title, content }: ModalProps) {
         <div className="p-6 space-y-6">
           {content.map((section, index) => (
             <div key={index} className="space-y-2">
-              <p className="text-deep-navy font-bold text-lg">{section.title}</p>
+              <p className="text-deep-navy font-bold text-lg font-bold">{section.title}</p>
               <p className="text-[#555] body-text leading-relaxed">{section.text}</p>
             </div>
           ))}
