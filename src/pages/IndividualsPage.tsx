@@ -70,12 +70,16 @@ export function IndividualsPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
             <div
               onClick={() => setIsModalOpen(true)}
-              className="cursor-pointer hover:shadow-lg transition-shadow"
+              className="group cursor-pointer hover:shadow-lg transition-all"
             >
-              <Card
-                title="בתחילת הדרך"
-                text="את/ה בונה את היסודות. הבחירות שאת/ה עושה עכשיו מעצבות את כל מה שיבוא אחר כך. בואו נחשוב עליהן ביחד."
-              />
+              <div className="bg-white border border-light-gray rounded-xl p-7 shadow-[0_2px_8px_rgba(0,0,0,0.04)] h-full">
+                <h3 className="text-[18px] font-bold text-deep-navy mb-3 underline decoration-2 underline-offset-2 group-hover:text-soft-teal transition-colors">
+                  בתחילת הדרך
+                </h3>
+                <p className="text-[15px] font-normal text-[#555] leading-[1.65]">
+                  את/ה בונה את היסודות. הבחירות שאת/ה עושה עכשיו מעצבות את כל מה שיבוא אחר כך. בואו נחשוב עליהן ביחד.
+                </p>
+              </div>
             </div>
             <Card 
               title="באמצע הקריירה" 
