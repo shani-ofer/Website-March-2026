@@ -6,6 +6,8 @@ import { Modal } from "@/src/components/Modal";
 export function IndividualsPage() {
   const [isBeginningCareerOpen, setIsBeginningCareerOpen] = useState(false);
   const [isMiddleCareerOpen, setIsMiddleCareerOpen] = useState(false);
+  const [isNewManagersOpen, setIsNewManagersOpen] = useState(false);
+  const [isFreelancersOpen, setIsFreelancersOpen] = useState(false);
 
   const beginningCareerContent = [
     {
@@ -42,6 +44,44 @@ export function IndividualsPage() {
     {
       title: "תוצאה:",
       text: "קבלת החלטה מבוססת על הכיוון המדויק לפרק הבא, יחד עם מפת דרכים ברורה שמחברת בין הניסיון שלך ליעדים החדשים."
+    }
+  ];
+
+  const newManagersContent = [
+    {
+      title: "מטרה:",
+      text: "הבנת המרכיבים הנדרשים לשינוי מביצוע לניהול, ודיוק הצעד הבא שיאפשר הובלה אפקטיבית של אנשים ותהליכים במרחב הארגוני."
+    },
+    {
+      title: "מיועד:",
+      text: "למנהלים ומנהלות בתחילת דרכם, שעברו מתפקיד של איש צוות לניהול צוות."
+    },
+    {
+      title: "מבנה:",
+      text: "התהליך מבוסס על 10 פגישות שבועיות אישיות, המהוות מרחב בטוח לניתוח ופיצוח אתגרים ניהוליים בתחילת הדרך."
+    },
+    {
+      title: "תוצאה:",
+      text: "בניית תוכנית עבודה פרקטית ליישום הצעדים הראשונים בתפקיד בביטחון, במקצועיות ומתוך סמכות."
+    }
+  ];
+
+  const freelancersContent = [
+    {
+      title: "מטרה:",
+      text: "זיהוי החסמים המעכבים את צמיחת העסק, ודיוק הצעד הבא שיאפשר קבלת החלטות עסקיות מושכלות ופריצת דרך מקצועית."
+    },
+    {
+      title: "מיועד:",
+      text: "לעצמאיים ובעלי עסקים הנמצאים בנקודת עצירה, בשלבי התרחבות, או בצומת דרכים הדורשת הגדרה מחדש של מסלול הצמיחה."
+    },
+    {
+      title: "מבנה:",
+      text: "התהליך מבוסס על 10 פגישות שבועיות אישיות, המהוות מרחב אסטרטגי לניתוח ופיצוח האתגרים הייחודיים לניהול עסק עצמאי."
+    },
+    {
+      title: "תוצאה:",
+      text: "קבלת החלטה ברורה על כיוון העסק ובניית תוכנית עבודה פרקטית לצעדים הבאים, המעניקה ביטחון בניהול העצמאי ובדרך שנבחרה."
     }
   ];
 
@@ -114,14 +154,32 @@ export function IndividualsPage() {
                 </p>
               </div>
             </div>
-            <Card 
-              title="מנהלים חדשים" 
-              text="היית מצוין/ת בעבודה שלך, ועכשיו את/ה מנהל/ת אחרים שעושים אותה. המעבר הזה הוא אחד הקשים בכל קריירה, והוא לא מגיע עם מדריך למשתמש." 
-            />
-            <Card 
-              title="עצמאיים ובעלי עסקים" 
-              text="לנהל משהו משלך אומר לקבל כל החלטה לבד. כשהעסק נעצר או שאת/ה מאבד/ת כיוון, שיחה עם מישהו לחשוב איתו משנה הכל." 
-            />
+            <div
+              onClick={() => setIsNewManagersOpen(true)}
+              className="group cursor-pointer hover:shadow-lg transition-all"
+            >
+              <div className="bg-white border border-light-gray rounded-xl p-7 shadow-[0_2px_8px_rgba(0,0,0,0.04)] h-full">
+                <h3 className="text-[18px] font-bold text-deep-navy mb-3 underline decoration-2 underline-offset-2 group-hover:text-soft-teal transition-colors">
+                  מנהלים חדשים
+                </h3>
+                <p className="text-[15px] font-normal text-[#555] leading-[1.65]">
+                  היית מצוין/ת בעבודה שלך, ועכשיו את/ה מנהל/ת אחרים שעושים אותה. המעבר הזה הוא אחד הקשים בכל קריירה, והוא לא מגיע עם מדריך למשתמש. <span className="text-soft-teal font-medium">לפרטי התהליך</span>
+                </p>
+              </div>
+            </div>
+            <div
+              onClick={() => setIsFreelancersOpen(true)}
+              className="group cursor-pointer hover:shadow-lg transition-all"
+            >
+              <div className="bg-white border border-light-gray rounded-xl p-7 shadow-[0_2px_8px_rgba(0,0,0,0.04)] h-full">
+                <h3 className="text-[18px] font-bold text-deep-navy mb-3 underline decoration-2 underline-offset-2 group-hover:text-soft-teal transition-colors">
+                  עצמאיים ובעלי עסקים
+                </h3>
+                <p className="text-[15px] font-normal text-[#555] leading-[1.65]">
+                  לנהל משהו משלך אומר לקבל כל החלטה לבד. כשהעסק נעצר או שאת/ה מאבד/ת כיוון, שיחה עם מישהו לחשוב איתו משנה הכל. <span className="text-soft-teal font-medium">לפרטי התהליך</span>
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -175,6 +233,20 @@ export function IndividualsPage() {
         onClose={() => setIsMiddleCareerOpen(false)}
         title="באמצע הקרירה"
         content={middleCareerContent}
+      />
+
+      <Modal
+        isOpen={isNewManagersOpen}
+        onClose={() => setIsNewManagersOpen(false)}
+        title="מנהלים חדשים"
+        content={newManagersContent}
+      />
+
+      <Modal
+        isOpen={isFreelancersOpen}
+        onClose={() => setIsFreelancersOpen(false)}
+        title="עצמאיים ובעלי עסקים"
+        content={freelancersContent}
       />
     </div>
   );
