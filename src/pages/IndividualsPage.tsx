@@ -4,7 +4,8 @@ import { Button } from "@/src/components/Button";
 import { Modal } from "@/src/components/Modal";
 
 export function IndividualsPage() {
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isBeginningCareerOpen, setIsBeginningCareerOpen] = useState(false);
+  const [isMiddleCareerOpen, setIsMiddleCareerOpen] = useState(false);
 
   const beginningCareerContent = [
     {
@@ -22,6 +23,25 @@ export function IndividualsPage() {
     {
       title: "התוצאה:",
       text: "קבלת החלטה ברורה ומגובשת על הכיוון המקצועי שלך, יחד עם תוכנית פעולה מעשית וביטחון בדרך שבחרת."
+    }
+  ];
+
+  const middleCareerContent = [
+    {
+      title: "מטרה:",
+      text: "לזקק את הערך הייחודי שלך, למנף את הניסיון שכבר צברת, ולהבין בצורה בהירה ומדויקת מהו הצעד הבא הנכון לקריירה שלך."
+    },
+    {
+      title: "מיועד:",
+      text: "לאנשי מקצוע מנוסים הנמצאים בצומת דרכים, שואפים לשדרוג תעסוקתי, או מחפשים לדייק את המסלול המקצועי הבא שלהם."
+    },
+    {
+      title: "מבנה:",
+      text: "התהליך מורכב מ-10 פגישות שבועיות אישיות, המאפשרות חשיבה מחודשת, מיקוד ובניית תוכנית פעולה פרקטית."
+    },
+    {
+      title: "תוצאה:",
+      text: "קבלת החלטה מבוססת על הכיוון המדויק לפרק הבא, יחד עם מפת דרכים ברורה שמחברת בין הניסיון שלך ליעדים החדשים."
     }
   ];
 
@@ -69,7 +89,7 @@ export function IndividualsPage() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
             <div
-              onClick={() => setIsModalOpen(true)}
+              onClick={() => setIsBeginningCareerOpen(true)}
               className="group cursor-pointer hover:shadow-lg transition-all"
             >
               <div className="bg-white border border-light-gray rounded-xl p-7 shadow-[0_2px_8px_rgba(0,0,0,0.04)] h-full">
@@ -81,10 +101,19 @@ export function IndividualsPage() {
                 </p>
               </div>
             </div>
-            <Card 
-              title="באמצע הקריירה" 
-              text="יש לך ניסיון וכישורים. השאלה עכשיו היא איך להשתמש בהם בדרך שמרגישה נכונה לפרק הבא." 
-            />
+            <div
+              onClick={() => setIsMiddleCareerOpen(true)}
+              className="group cursor-pointer hover:shadow-lg transition-all"
+            >
+              <div className="bg-white border border-light-gray rounded-xl p-7 shadow-[0_2px_8px_rgba(0,0,0,0.04)] h-full">
+                <h3 className="text-[18px] font-bold text-deep-navy mb-3 underline decoration-2 underline-offset-2 group-hover:text-soft-teal transition-colors">
+                  באמצע הקרירה
+                </h3>
+                <p className="text-[15px] font-normal text-[#555] leading-[1.65]">
+                  יש לך ניסיון וכישורים. השאלה עכשיו היא איך להשתמש בהם בדרך שמרגישה נכונה לפרק הבא. <span className="text-soft-teal font-medium">לפרטי התהליך</span>
+                </p>
+              </div>
+            </div>
             <Card 
               title="מנהלים חדשים" 
               text="היית מצוין/ת בעבודה שלך, ועכשיו את/ה מנהל/ת אחרים שעושים אותה. המעבר הזה הוא אחד הקשים בכל קריירה, והוא לא מגיע עם מדריך למשתמש." 
@@ -135,10 +164,17 @@ export function IndividualsPage() {
       </section>
 
       <Modal
-        isOpen={isModalOpen}
-        onClose={() => setIsModalOpen(false)}
+        isOpen={isBeginningCareerOpen}
+        onClose={() => setIsBeginningCareerOpen(false)}
         title="בתחילת הדרך"
         content={beginningCareerContent}
+      />
+
+      <Modal
+        isOpen={isMiddleCareerOpen}
+        onClose={() => setIsMiddleCareerOpen(false)}
+        title="באמצע הקרירה"
+        content={middleCareerContent}
       />
     </div>
   );
