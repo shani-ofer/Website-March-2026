@@ -137,7 +137,7 @@ export function IndividualsPage() {
                   בתחילת הדרך
                 </h3>
                 <p className="text-[15px] font-normal text-[#555] leading-[1.65]">
-                  את/ה בונה את היסודות. הבחירות שאת/ה עושה עכשיו מעצבות את כל מה שיבוא אחר כך. בואו נחשוב עליהן ביחד.
+                  את/ה בונה את היסודות. הבחירות שאת/ה עושה עכשיו מעצבות את כל מה שיבוא אחר כך. בואו נחשוב עליהן ביחד. <span className="text-soft-teal font-medium">לפרטי התהליך</span>
                 </p>
               </div>
             </div>
