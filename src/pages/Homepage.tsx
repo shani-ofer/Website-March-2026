@@ -121,7 +121,7 @@ export function Homepage() {
         {/* Background Image & Overlay */}
         <div
           className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: "url('/background5_(1).jpg')" }}
+          style={{ backgroundImage: "url('/background3.png')" }}
         />
         <div className="absolute inset-0 z-0 bg-white/40" />
         
